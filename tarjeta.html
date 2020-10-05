@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <link rel="icon"  href="img/logo1.ico">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Krona+One|Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<title>Turismo del mundo</title>
+</head>
+
+<body class="bodyprecio3">
+
+	<header>
+		<div class="menu-contenedor">
+
+		<img src="img/logo1.png" onclick="window.location.href='reservas.html' " width="67px" height="67px">
+		<a href="precios.html">Precios</a>
+		<a href="promociones.html">Promociones</a>
+		<a href="tarjeta.html">Tarjeta Gold</a>
+		<a href="reservas.html">Reservas</a>
+		</div>
+	</header>
+
+<section class="tarjeta">
+
+	<div class="card mb-3">
+      <img class="card-img-top" src="img/tarjeta.png"  type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" alt="Card image cap">
+      
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Bienvenido</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+        	<div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nombre:</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="Nombre completo">
+          </div>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Correo:</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="example@expample.com">
+          </div>
+          <div class="form-group">
+			    <label for="presupuesto">Seleccione su tarjeta</label>
+			    <select class="form-control" id="presupuesto">
+			      <option>---------</option>
+			      <option>Gold</option>
+			      <option>Silver</option>
+			      <option>Ruby</option>
+			    </select>
+			  </div>
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    
+
+</section>	
+
+
+</body>
